@@ -1,0 +1,99 @@
+/* =========================================================
+   INDEX.HTML
+   (Aquí personalizo la portada)
+   ========================================================= */
+.index-hero h1 {
+  color: var(--c-primary);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+.index-hero .cta-btn {
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+}
+
+/* =========================================================
+   PRIMARIA.HTML
+   ========================================================= */
+.primaria-section {
+  background: #f0fff4; /* Verde suave para dar frescura */
+}
+.primaria-section h2 {
+  color: #2e8b57; /* Verde institucional */
+}
+.primaria-section .curriculum-table th {
+  background: #e6f7ec;
+}
+
+/* =========================================================
+   SECUNDARIA.HTML
+   ========================================================= */
+.secundaria-section {
+  background: #f5f9ff; /* Azul claro */
+}
+.secundaria-section h2 {
+  color: #1e3a8a; /* Azul profundo */
+}
+.secundaria-section .curriculum-table th {
+  background: #eaf0ff;
+}
+
+/* =========================================================
+   TECNICO.HTML
+   ========================================================= */
+.tecnico-section {
+  background: #fffaf0; /* Beige suave */
+}
+.tecnico-section h2 {
+  color: #b45f06; /* Marrón cálido */
+}
+.tecnico-section h3 {
+  border-left: 4px solid #b45f06;
+  padding-left: 0.5rem;
+}
+
+/* =========================================================
+   ESPECIALIDAD.HTML
+   ========================================================= */
+.especialidad-section {
+  background: #fdf2f8; /* Rosa claro */
+}
+.especialidad-section h2 {
+  color: #be185d; /* Rosa institucional */
+}
+.especialidad-section h3 {
+  border-left: 4px solid #be185d;
+  padding-left: 0.5rem;
+}
+
+/* =========================================================
+   UNIVERSITARIA.HTML
+   ========================================================= */
+.universidad-section {
+  background: #f0f4f8; /* Gris académico */
+}
+.universidad-section h2 {
+  color: #0f172a; /* Azul oscuro serio */
+}
+.universidad-section h3 {
+  border-bottom: 2px solid #0f172a;
+  padding-bottom: 0.3rem;
+}
+
+/* =========================================================
+   CONTACTO.HTML
+   ========================================================= */
+.contact-form {
+  background: #f9fafb;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.contact-form label {
+  font-weight: bold;
+  color: var(--c-primary);
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--c-secondary);
+  outline: none;
+  box-shadow: 0 0 6px var(--c-secondary);
+}
