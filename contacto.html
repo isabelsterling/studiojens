@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Jens - Contacto</title>
+  <!-- Aquí enlazo mis estilos generales -->
+  <link rel="stylesheet" href="css/style.css">   <!-- Estilos generales -->
+  <link rel="stylesheet" href="css/studio.css">  <!-- Estilos específicos -->
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">🎓 Studio Jens</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="primaria.html">Primaria</a></li>
+        <li><a href="secundaria.html">Secundaria</a></li>
+        <li><a href="tecnico.html">Técnico</a></li>
+        <li><a href="especialidad.html">Especialidad</a></li>
+        <li><a href="universidad.html">Universidad</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero de la sección Contacto -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-icon">📩</div>
+      <h1>Contáctanos</h1>
+      <p class="subtitle">Queremos escucharte</p>
+      <p class="tagline">Déjanos tu mensaje y nos pondremos en contacto contigo</p>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="container">
+    <section class="section vision-section">
+      <div class="vision-card">
+        <h2>Formulario de Contacto</h2>
+        <p>
+          Completa el formulario y envíanos tus consultas, sugerencias o comentarios.
+          A futuro, este formulario podrá exportar los datos directamente a un archivo Excel.
+        </p>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <section class="section">
+      <form class="contact-form" id="contactForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Tu correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <!-- Aquí dejo abierta la opción de exportar a Excel -->
+      <!-- 
+        En el futuro, con JS (main.js) puedes capturar los datos del formulario
+        y enviarlos a un backend o convertirlos en un archivo Excel.
+        Ejemplo: usar SheetJS (xlsx) o conexión con Google Sheets.
+      -->
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>🎓 Studio Jens - Escuela Virtual</p>
+      <p>Educación de calidad al alcance de todos</p>
+      <p>&copy; 2025 Todos los derechos reservados</p>
+      <p><a href="index.html">Volver al inicio</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
